@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>registration form</title>
+
+<style>
+body{
+  font-family:Arial;
+}
+
+.form{
+  width:600px;
+  margin:30px auto;
+  padding:25px;
+  background-color:lightblue;
+}
+
+label{
+  display:inline-block; width:180px; margin:8px;
+}
+  input,select,textarea {
+  margin:5px;
+}
+text area{
+  width:200px; height:70px;}
+</style>
+</head>
+<body>
+<div class="form">
+<h2 align="center">REGISTRATION FORM</h2>
+<form>
+<label>Full Name:</label>
+<input type="text" required>
+<br>
+<label>Mobile Number:</label>
+<input type="tel" maxlength="10"required>
+<br>
+<label>Email id:</label>
+<input type="email" required><br>
+<label>Age:</label>
+<input type="number"><br>
+<label>Gender:</label>
+<input type="radio"name="g">male
+<input type="radio"name="g">female
+<input type="radio"name="g">others<br>
+<label>Date Of Birth:</label>
+<input type="date"><br>
+<label>address</label>
+<textarea></textarea><br>
+<label>Current study:</label>
+<select>
+<option>BCA</option>
+<option>MCA</option>
+<option>B.Tech</option>
+</select><br>
+<label>Upload CV</label>
+<input type="file"><br>
+<label>Languages:</label>
+<input type="checkbox">English
+<input type="checkbox">Malayalam
+<input type="checkbox">Hindi<br>
+<br>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</form>
+</div>
+</body>
+</html>
